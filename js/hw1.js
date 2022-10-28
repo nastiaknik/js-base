@@ -121,5 +121,5 @@ console.log(isValidPassword('mango1903')); //false
 console.log(isValidPassword('jqueryismyjam')); // true
  */
 
-// 2nd lesson
+// 2nd lessoin
 // 15. Change code below this line
