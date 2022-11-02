@@ -159,11 +159,9 @@ console.log(brand); // Samsung*/
 /* const x1 = 10;
 const x2 = 30;
 const number = 45;
-
 console.log(`Число ${number} попадає у відрізок до ${x1}?`, number < x1); // 1)
 console.log(`Число ${number} попадає у відрізок після ${x2}?`, number > x2); // 2)
 const res1 = number > x1 && number < x2;
-
 console.log(`Число ${number} попадає у відрізок від ${x1} до ${x2}? `, res1); // 3)
 const res2 = number < x1 || number > x2;
 console.log(`Число ${number} попадає у відрізок до ${x1} або після ${x2}? `, res2); // 4) */
@@ -176,7 +174,6 @@ console.log(`Число ${number} попадає у відрізок до ${x1} 
 /* const isOnline = true;
 const isFriend = true;
 const isDnd = false;
-
 const canOpenChat = isOnline && isFriend && !isDnd;
 console.log('Можна відкрити чат? ', canOpenChat); */
 
@@ -185,5 +182,4 @@ console.log('Можна відкрити чат? ', canOpenChat); */
 // Доступ є тільки у про і віайпі користувачів
 /* const sub = 'free';
 const canAccessContent = sub === 'pro' || sub === 'vip';
-
 console.log('Є доступ? ', canAccessContent); // false, бо підписка free */
