@@ -176,8 +176,8 @@ roscoe.changeOwner('Stiles Stilinski'); //
 console.log(jeep.ownerName());
 console.log(jeep);
 console.log(Car.isPrototypeOf(jeep)); // true */
-console.log(Object.getPrototypeOf(roscoe)); // Jeep
-console.log(Jeep.prototype); // Car
+/* console.log(Object.getPrototypeOf(roscoe)); // Jeep
+console.log(Jeep.prototype); // Car */
 
 // 13.
 class InstaUser {
@@ -221,9 +221,9 @@ class InstaUser {
   }
 }
 const alex = new InstaUser('alex', 'alex@gmail.com', 18);
-alex.getName(); // alex
+/* alex.getName(); // alex */
 /* console.log(alex.getEmail); // alex@gmail.com */
-console.log(InstaUser.counter); // 1 - alex
+/* console.log(InstaUser.counter); // 1 - alex */
 
 // 14. Напиши клас Blogger для створення об'єкта блогера з наступними властивостями:
 // email - пошта, рядок
@@ -290,5 +290,3 @@ console.log(InstaUser.counter); // 1 - alex
 // storage.removeItem('🍋');
 // storage.removeItem('😎');
 // console.table(storage.items); // [ '🍎', '🍇', '🍑', '🍌' ]
-
-// 15.
