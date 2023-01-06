@@ -62,7 +62,7 @@ console.log(link.innerHTML);
  */
 
 // 7. список продуктів
-import products from './data/products.js';
+/* import products from './data/products.js';
 
 const productsContainerEl = document.querySelector('.js-products');
 
@@ -90,14 +90,14 @@ const makeProductCard = ({ name, description, price }) => {
 const elements = products.map(makeProductCard);
 
 console.log(elements); // [ article.product, article.product, article.product, article.product ]
-productsContainerEl.append(...elements);
+productsContainerEl.append(...elements); */
 
 // 8.
-productsContainerEl.innerHTML = '';
-console.log(productsContainerEl); // <div class="js-products">
+/* productsContainerEl.innerHTML = '';
+console.log(productsContainerEl); // <div class="js-products"> */
 
 // 9.
-import transactionHistory from './data/transactions.js';
+/* import transactionHistory from './data/transactions.js';
 
 const makeTransactionTableRowMarkup = transaction => {
   const { id, amount, date, business, type, name, account } = transaction;
@@ -119,7 +119,7 @@ const tableEl = document.querySelector('.js-transaction-table');
 const transactionTableRowsMarkup = transactionHistory.map(makeTransactionTableRowMarkup).join('');
 
 tableEl.insertAdjacentHTML('beforeend', transactionTableRowsMarkup);
-tableEl.innerHTML = '';
+tableEl.innerHTML = ''; */
 
 // 10.
 /* const list = document.querySelector('.js-list');

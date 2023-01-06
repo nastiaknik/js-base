@@ -1,12 +1,13 @@
 .container {
-  display: flex;
-  margin: 100px 50px 50px 50px;
+  /*   display: flex; */
+  margin: 25px;
+  user-select: none;
 }
 
 .content {
   width: 312px;
-  border: 2px solid black;
   margin: 0 auto;
+  user-select: none;
 }
 
 .item {
@@ -16,13 +17,95 @@
   text-align: center;
   display: inline-block;
   font-size: 50px;
-  border: 2px solid black;
   cursor: pointer;
   vertical-align: middle;
   transition: background 0.1s;
   user-select: none;
 }
 
-.item:hover {
-  background-color: #f1f1f10c;
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6) {
+  border-bottom: 3px solid black;
+}
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(7),
+.item:nth-child(8) {
+  border-right: 3px solid black;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.resetBtn {
+  align-items: center;
+  background-color: #fff;
+  border: #0a66c2 solid 2px;
+  border-radius: 90px;
+  box-sizing: border-box;
+  color: #0a66c2;
+  cursor: pointer;
+  display: flex;
+  font-family: -apple-system, system-ui, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',
+    'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 10px 40px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resetBtn:hover,
+.resetBtn:focus {
+  background-color: #0a66c2;
+  color: #ffffff;
+  border-color: #0a66c2;
+}
+
+.counter {
+  display: flex;
+  margin: 0;
+}
+
+.counter__el {
+  font-family: 'Londrina Sketch';
+  font-size: 70px;
+  color: grey;
+}
+
+.scores {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ties {
+  margin: 0 auto;
+}
+
+.scoreX {
+  color: red;
+}
+
+.scoreO {
+  color: blue;
 }
