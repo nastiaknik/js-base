@@ -60,7 +60,7 @@ function incrementKeypressCounter() {
  */
 
 // 4. Закрити модалку по кнопці, ескейп і по кліку на сіре поле
-const refs = {
+/* const refs = {
   openModalBtn: document.querySelector('[data-action="open-modal"]'),
   closeModalBtn: document.querySelector('[data-action="close-modal"]'),
   backdrop: document.querySelector('.js-backdrop'),
@@ -98,4 +98,4 @@ function onEscKeyPress(event) {
   if (isEscKey) {
     onCloseModal();
   }
-}
+} */
